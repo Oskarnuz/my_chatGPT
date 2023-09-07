@@ -1,0 +1,9 @@
+<h1>Generate Image for Product</h1>
+
+
+
+<%= form_with(url: products_path, method: :post) do |f| %>
+  <%= f.label :product_name %>
+  <%= f.text_field :product_name %>
+  <%= f.submit 'Generate Image' %>
+<% end %>

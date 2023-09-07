@@ -35,15 +35,15 @@ en:
   english_option: "English"
   spanish_option: "Spanish "
   product: "Product"
-  max_token: "Max_token"
-  temperature: "Temperature"
+  max_token: "Maximum Content Length"
+  temperature: "Creativity Level"
   language: "Language"
-  type: "Type"
+  type: "Action Type"
   description: "Description"
   tag: "Tag"
 
   main_language_label: "Language"
 
   chat_gpt:
-    description: "Create a detailed product description for %{product_name} that showcases its benefits and functionalities based on the following key features: %{text}."
-    tag: "Given the product name %{product_name} and the following main features %{text}, please generate five tags according to the product name and text"
+    description: "Create a detailed product description for %{product_name} that showcases its benefits and functionalities based on the following key features: %{text}. Translate %{product_name} and %{text} to the same language of the answer."
+    tag: "Given the product name %{product_name} and the following main features %{text}, please generate five features tags according to the product name and text. Translate %{product_name} and %{text} to the same language of the answer."

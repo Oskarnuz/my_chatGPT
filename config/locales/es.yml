@@ -35,16 +35,16 @@ es:
   english_option: "Inglés"
   spanish_option: "Español"
   product: "Producto"
-  max_token: "Max_token"
-  temperature: "Temperatura"
+  max_token: "Máxima Longitud de Contenido"
+  temperature: "Nivel de Creatividad"
   language: "Idioma"
-  type: "Tipo"
+  type: "Tipo de Acción"
   description: "Descripción"
   tag: "Etiquetas"
 
   main_language_label: "Idioma"
 
   chat_gpt:
-    description: "Cree una descripción detallada del producto para %{product_name} que muestre sus beneficios y funcionalidades en función de las siguientes características clave: %{text}."
-    tag: "Genere cinco etiquetas relevantes para %{product_name} según sus características clave: %{text}."
+    description: "Cree una descripción detallada del producto para %{product_name} que muestre sus beneficios y funcionalidades en función de las siguientes características clave: %{text}. Traducir %{product_name} y %{text} al mismo idioma de la respuesta"
+    tag: "Genere cinco etiquetas relevantes para %{product_name} según sus características clave: %{text}. Traducir %{product_name} y %{text} al mismo idioma de la respuesta."
     
